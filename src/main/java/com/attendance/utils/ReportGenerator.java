@@ -60,7 +60,9 @@ public class ReportGenerator {
 		Transaction transaction = session.beginTransaction();
 		
 		
-		Query datesQuery = session.createNativeQuery("SELECT DISTINCT(DATE(a.attendance_date)) FROM attendance a");
+		Query datesQuery = session.createNativeQuery("SELECT DISTINCT(DATE(a.attendance_date)) AS attendance_date "
+													+ "FROM attendance a "
+													+ "ORDER BY attendance_date");
 		
 		List<Object> dates = datesQuery.getResultList();
 		
