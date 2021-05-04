@@ -56,7 +56,6 @@ public class Driver {
 		 * After generating the Attendance Template fill attended column with Boolean values
 		 * To define whether if the participant attended on the specified date or not
 		 *	Save the file and Run the Method Below
-		 * 
 		 */
 //		 new AttendanceImportProcessor().importFromExcel("attendanceTemplate.xlsx");
 		
