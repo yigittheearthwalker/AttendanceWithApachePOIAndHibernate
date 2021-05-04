@@ -1,6 +1,6 @@
 # AttendanceWithApachePOIAndHibernate
  
-An exercise project using the Apache POI Library for Excel operations and Hibernate
+An exercise project using the Apache POI Library for Excel operations (XSSFWorkbook()) and Hibernate
 
 As it's explained in the main method, Scenario is to create Course and Student entities using the generated Excel templates
 
